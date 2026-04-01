@@ -1,12 +1,71 @@
- // you've been assigned to create a responsive website for a client who runs a cat adoption agency. The website needs to display various cat breeds in a visually appealing and accessible manner. Your task is to build this website using CSS Flexbox to ensure it looks great on all devices, from desktops to mobile 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Cat Adoption Agency | Find Your Companion</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header class="main-header">
+        <div class="container">
+            <h1>Cat Adoption Agency</h1>
+            <p class="tagline">Find your <span>purrfect</span> companion today!</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="adoption-section">
+            <h2 class="section-title">Available Cats for Adoption</h2>
+            
+            <div class="cat-grid">
+                <!-- Cat Card 1 -->
+                <article class="cat-card">
+                    <div class="card-image">
+                        <img src="whiskers.jpg" alt="Whiskers, a playful tabby cat">
+                    </div>
+                    <div class="card-content">
+                        <h3>Whiskers</h3>
+                        <p>A playful tabby cat who loves to cuddle and explore new heights.</p>
+                        <a href="mailto:info@://catadoptionagency.com Whiskers" class="btn">Adopt Me</a>
+                    </div>
+                </article>
+
+                <!-- Cat Card 2 -->
+                <article class="cat-card">
+                    <div class="card-image">
+                        <img src="luna.jpg" alt="Luna, a shy black cat">
+                    </div>
+                    <div class="card-content">
+                        <h3>Luna</h3>
+                        <p>A shy, elegant black cat who enjoys quiet environments and soft music.</p>
+                        <a href="mailto:info@://catadoptionagency.com Luna" class="btn">Adopt Me</a>
+                    </div>
+                </article>
+
+                <!-- Cat Card 3 -->
+                <article class="cat-card">
+                    <div class="card-image">
+                        <img src="simba.jpg" alt="Simba, an energetic orange cat">
+                    </div>
+                    <div class="card-content">
+                        <h3>Simba</h3>
+                        <p>An energetic orange cat who loves to play with toys and stay active.</p>
+                        <a href="mailto:info@://catadoptionagency.com Simba" class="btn">Adopt Me</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:info@catadoptionagency.com">info@catadoptionagency.com</a></p>
+                <p>Phone: <a href="tel:+2541234567890">(+254) 123-456-7890</a></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
