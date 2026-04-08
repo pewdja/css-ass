@@ -27,7 +27,6 @@ body {
     padding: 0 20px;
 }
 
-/* Header Styling */
 .main-header {
     background: var(--secondary-color);
     color: white;
@@ -40,7 +39,6 @@ body {
     font-weight: bold;
 }
 
-/* Flexbox Grid */
 .cat-grid {
     display: flex;
     flex-wrap: wrap;
@@ -49,7 +47,6 @@ body {
     margin: 40px 0;
 }
 
-/* Card Improvements */
 .cat-card {
     background: var(--card-bg);
     border-radius: 15px;
@@ -91,7 +88,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Button Styling */
 .btn {
     display: inline-block;
     background: var(--primary-color);
